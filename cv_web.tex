@@ -1,0 +1,178 @@
+%!TEX TS-program = xelatex
+\documentclass[]{friggeri-cv}
+\usepackage{afterpage}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{tabto}
+
+\hypersetup{
+    pdftitle={Resume},
+    pdfauthor={},
+    pdfsubject={},
+    pdfkeywords={},
+    colorlinks=false,       % no lik border color
+   allbordercolors=white    % white border color for all
+}
+\addbibresource{bibliography.bib}
+\RequirePackage{xcolor}
+\definecolor{pblue}{HTML}{0395DE}
+
+\begin{document}
+\header {} {Md Rafi Akhtar}
+      {Systems Engineer, TCS Pune}
+      
+% Fake text to add separator      
+\fcolorbox{white}{gray}{\parbox{\dimexpr\textwidth-2\fboxsep-2\fboxrule}{%
+.....
+}}
+
+% In the aside, each new line forces a line break
+\begin{aside}
+  \section{Address}
+    185 / 1, Park Street, Kolkata-700017
+    West Bengal, India
+    ~
+  \section{Mobile}
+    +91 9674 639 341
+    ~
+  \section{Mail}
+    \href{mailto:md.rakhtar@tcs.com}{\textbf{md.rakhtar@tcs..com}}
+    \href{mailto:alimdrafi@gmail.com}{\textbf{alimdrafi@gmail.com}}
+    ~
+  \section{Web Links}
+    \textbf{GitHub} \href{https://github.com/rafi007akhtar}{github.com/rafi007akhtar}
+    \textbf{LinkedIn} \href{https://www.linkedin.com/in/md-rafi-akhtar}{linkedin.com/in/md-rafi-akhtar}
+    \textbf{Twitter} \href{https://twitter.com/rafi007akhtar}{\\twitter.com/rafi007akhtar}
+    \textbf{Medium}
+    \href{https://medium.com/@rafi007akhtar}{medium.com/\\@rafi007akhtar}
+    \textbf{Certifications}
+    \href{https://drive.google.com/open?id=1yXkhjvAwEwfuUrkH_Ks33mNrBGWDfhWL}{Drive Link}
+    ~
+  \section{Programming Languages}
+    \textbf{JavaScript}\includegraphics[scale=0.40]{4stars.png}
+    \textbf{Python}\includegraphics[scale=0.40]{4stars.png}
+    \textbf{Java}\includegraphics[scale=0.40]{3stars.png}
+    ~
+\end{aside}
+
+\section{Experience}
+\begin{entrylist}
+    \entry
+    {June - July, \\ 2019}
+    {Learning Enabler}
+    {Tata Consultancy Services, Pune}
+    {Assisted in the training and management of freshers during their ILP period, as a part of the Talent Development team. \\Technologies for training included Java, SQL/PLSQL, Unix and UI.}
+    \entry
+    {Feb - Apr, \\ 2018}
+    {Summer Intern}
+    {AscentSpark, Kolkata, India}
+    {Automated Text Writeups Composition: Composing One-Liners From on Public Data on Social-Media Activities of Users. \\Technology stack included UI and Django.}
+\end{entrylist}
+
+\section{Education}
+\begin{entrylist}
+  \entry
+    {2015 - 2019}
+    {B. Tech in Computer Science \& Engineering\\}
+    {University of Engineering \& Management, Kolkata}
+    {Primary subjects: \\
+        • Data Structures and Algorithms\\
+        • Objected Oriented Programming\\
+    }
+  \entry
+    {2014}
+    {High School - Class XII}
+    {St. Sebastian's School, Kolkata, India}
+    {Primary subjects: Mathematics, Physics, Computer Science, Chemistry.}
+   \entry
+    {2012}
+    {Secondary School - Class X}
+    {St. Sebastian's School, Kolkata, India}
+    {Primary subjects: Mathematics, Physics, Computer Applications, Chemistry.}
+\end{entrylist}
+
+\section{Projects}
+\begin{entrylist}
+  \entry
+    {07/2019}
+    {\href{https://github.com/rafi007akhtar/fend-project-memory-game}
+    {Memory Game}}
+    {Udacity}
+    {Web-game developed using pure JavaScript with DOM that uses a deck of cards for matching and unmatching. When all cards are matched, the game is won. \href{https://rafi007akhtar.github.io/fend-project-memory-game/}{\underline{[Link]}}}
+  \entry
+    {04/2019}
+    {\href{https://github.com/rafi007akhtar/uemcrp}{UEMCRP}}{UEM, Kolkata}
+    {College Resource Planning website written in Django. Implemented as a final year project. \href{https://github.com/rafi007akhtar/uemcrp}{\underline{[Link]}}}
+  \entry
+    {07/2017}
+    {\href{https://github.com/rafi007akhtar/Wiki-Viewer}{Wiki Viewer}}
+    {Free Code Camp}
+    {Wikipedia Search Engine that uses the mediawiki-api to fetch the top 10 results of a search query on Wikipedia, and render them on the page. \href{https://rafi007akhtar.github.io/Wiki-Viewer/}{\underline{[Link]}}}
+  \entry
+    {10/2017}
+    {Banking System}
+    {UEM, Kolkata}
+    {Online Banking System web-app written in Django. \href{https://github.com/rafi007akhtar/CentralBank}{\underline{[Link]}}}
+  \entry
+    {07/2017}
+    {\href{https://github.com/rafi007akhtar/ecstasia}{Ecstasia}}
+    {UEM, Kolkata}
+    {Website for UEM, Kolkata's very first cultural fest, Ecstasia. \href{https://rafi007akhtar.github.io/ecstasia/}{\underline{[Link]}}}
+  \entry
+    {08/2016}
+    {\href{https://codepen.io/rafi007akhtar/full/xrXEJE}{Mini-Weather-Wizard}}
+    {Free Code Camp}{Weather forecasting website that uses Dark API and Google Maps API to display details about the user's current location and weather conditions. \href{https://codepen.io/rafi007akhtar/full/xrXEJE}{\underline{[Link]}}}
+    
+\end{entrylist}
+
+\section{Achievements}
+\begin{itemize}
+    \item Winner of website designing contest in eXabyte, 2016 (the annual tech-fest of St Xavier's College).
+    \item Winner of website designing contest in Paridihi, 2017 (the annual tech-fest of Meghnad Saha Instituate of Technology).
+    \item Second runner-up of story-writing contest in Kshitij, 2017 (the annual tech-fest of IIT-Kharagpur).
+\end{itemize}
+
+\section{Areas of Interest}
+\begin{itemize}
+    \item Web Development
+    \item Data Visualization
+    \item Artificial Intelligence, Machine Learning, Deep Learning
+    \item Deep Reinforcement Learning
+\end{itemize}
+
+\begin{aside}
+\section{Tools}
+\textbf{\\Front-End Technology} {\\HTML, CSS, JavaScript, ECMA Script, jQuery, Bootstrap}
+\textbf{\\Back-End Technology} {Django}
+\textbf{\\Database Technology} {SQL, ORM}
+\textbf{\\Version Control} {Git}
+\textbf{\\Code Collaboration Platform} {\\GitHub, GitLab}
+\textbf{\\Text Editors} {Visual Studio Code, Brackets}
+    ~
+  \section{Languages}
+    \textbf{English}\includegraphics[scale=0.40]{4stars.png}
+    \textbf{Hindi}\includegraphics[scale=0.40]{3stars.png}
+    ~
+\end{aside}
+\section{Certifications}
+\begin{entrylist}
+  \entry
+    {02/2018}
+    {Neural Networks and Deep Learning}
+    {deeplearning.ai, Coursera}
+    {\emph{Building an Image Classifier}}
+  \entry
+    {06/2018}
+    {Data Science: Visualization}
+    {Harvard University, edX}
+    {\emph{Using ggplot2 in R to visualize datasets and draw inferences}}
+  \entry
+    {03/2017}
+    {Programming, Data Structures and Algorithms in Python\\}
+    {IIT-Madras, NPTEL}
+    
+\end{entrylist}
+
+\textbf{Verification.} I, Md Rafi Akhtar, do hereby proclaim that all information provided is correct and to the best of my knowledge.
+\end{document}
